@@ -4,7 +4,7 @@ project(kickstart VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
-add_executable(kickstart main.cpp centauri_prime.h)
+add_executable(kickstart main.cpp practice_session_1/centauri_prime.h)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
